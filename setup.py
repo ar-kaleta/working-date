@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='working_date',
-    version='0.3',
+    version='0.4',
     packages=find_packages(),
     install_requires=[
         'datetime>=5.5'

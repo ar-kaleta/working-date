@@ -13,7 +13,7 @@ def add_working_days(start_date, num_working_days):
 def get_date():
     # Get the number of working days from the command line argument
     if len(sys.argv) != 2:
-        print("Usage: add_working_days.py <number_of_working_days>")
+        print("Usage: working-date <number_of_working_days>")
         sys.exit(1)
 
     try:
