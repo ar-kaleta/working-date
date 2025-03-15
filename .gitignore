@@ -1,0 +1,32 @@
+# PyCharm
+.idea/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Python distribution package
+*.egg
+*.egg-info
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Test and coverage reports
+.coverage
+*.coverage
+*.hypothesis/
+.pytest_cache/
+nose2-*.xml
+coverage.xml
