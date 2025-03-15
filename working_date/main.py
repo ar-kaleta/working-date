@@ -10,7 +10,7 @@ def add_working_days(start_date, num_working_days):
             num_working_days -= 1
     return current_date
 
-def main():
+def get_date():
     # Get the number of working days from the command line argument
     if len(sys.argv) != 2:
         print("Usage: python add_working_days.py <number_of_working_days>")
@@ -31,6 +31,3 @@ def main():
     # Print the result
     print(f"Current date: {current_date}")
     print(f"New date after adding {num_working_days} working days: {new_date}")
-
-if __name__ == "__main__":
-    main()
